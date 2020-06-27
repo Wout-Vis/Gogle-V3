@@ -1,8 +1,8 @@
 import React from "react";
-import logoGreen from "../../GFX/green.png";
-import logoScience from "../../GFX/science.png";
-import logoStocks from "../../GFX/stocks.png";
-import logoGov from "../../GFX/gov.png";
+import logoGreen from "../../GFX/branch_icon_Green.svg";
+import logoScience from "../../GFX/branch_icon_Science.svg";
+import logoStocks from "../../GFX/branch_icon_Stocks.svg";
+import logoGov from "../../GFX/branch_icon_Gov.svg";
 
 export default function Branches() {
   return (
