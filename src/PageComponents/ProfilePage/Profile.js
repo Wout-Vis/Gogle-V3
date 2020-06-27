@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Image, Message, Embed } from "semantic-ui-react";
+import { Grid, Image, Message } from "semantic-ui-react";
 import Schedule from "./scheduleAndStuff/schedule_withtext.svg";
 
 export default class Profile extends Component {

@@ -26,7 +26,7 @@ export default function Products() {
       <div class="row">
         <div class="col">
           “Gogle Green: for the betterment of society” is the slogan we used
-          when we launched this branch. After 20 years we still stand by that.
+          when we launched this branch. After 17 years we still stand by that.
           Gogle Green is involved in over 160 projects around the world where we
           provide funding and our technical expertise to change the climate for
           the better.

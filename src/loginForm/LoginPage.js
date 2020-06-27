@@ -17,11 +17,9 @@ const LoginTest = ({ values, errors, touched }) => (
       <button type="submit">Submit</button>
     </Form>
   </div>
-)
-  
-  
+);
+
 export const FormikApp = withFormik({
-  
   mapPropsToValues({ email, password, terms }) {
     return {
       email: email || "",
@@ -40,11 +38,25 @@ export const FormikApp = withFormik({
     setTimeout(() => {
       console.log(values);
       if (
-        values.email === "d.escudero@gogle.com" &&
-        values.password === "Chewie"
+        (values.email === "d.escudero@gogle.com" &&
+          values.password === "Chewie") ||
+        (values.email === "d.escudero@gogle.com" &&
+          values.password === "chewie") ||
+        (values.email === "D.Escudero@gogle.com" &&
+          values.password === "Chewie") ||
+        (values.email === "D.Escudero@gogle.com" &&
+          values.password === "chewie") ||
+        (values.email === "D.escudero@gogle.com" &&
+          values.password === "chewie") ||
+        (values.email === "D.escudero@gogle.com" &&
+          values.password === "Chewie") ||
+        (values.email === "d.Escudero@gogle.com" &&
+          values.password === "chewie") ||
+        (values.email === "d.Escudero@gogle.com" &&
+          values.password === "chewie")
       ) {
         resetForm();
-        Progress.updateProgress('2');
+        Progress.updateProgress("2");
       } else {
         setErrors({ email: "The combination is wrong" });
       }

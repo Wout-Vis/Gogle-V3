@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Image } from "semantic-ui-react";
 
 import Escudero from "../../GFX/Escudero.JPG";
+
 export default class ProfileInformation extends Component {
   render() {
     return (
@@ -20,7 +21,7 @@ export default class ProfileInformation extends Component {
                   <li>Age: 40</li>
                   <li>Sex: male</li>
                   <li>Status: married</li>
-                  <li>Address: Elisabeth-Schuttingstraat 148</li>
+                  <li>Address: Elisabeth-Koninginnelaan 148</li>
                   <li>ZIP code: 0420 12</li>
                   <li>Phone Number: +31648465888</li>
                 </ul>
@@ -29,7 +30,6 @@ export default class ProfileInformation extends Component {
                   <li>
                     Chief Scientist in Project Balder
                     <ul>
-                      {" "}
                       <li>2030-2033</li>
                     </ul>
                   </li>
