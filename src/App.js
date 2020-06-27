@@ -19,7 +19,7 @@ import Story from "./PageComponents/Story/Story";
 
 // After login page imports
 import Integrity from "./PageComponents/CodeOfConduct/Integrity";
-import PrePanel from "./PageComponents/PrePanel/prePannelComment";
+import PrePanel from "./PageComponents/PrePanel/PrePanel";
 import NiceReads from "./PageComponents/NiceReads/NiceReads";
 import Profile from "./PageComponents/ProfilePage/Profile";
 import ProfileInformation from "./PageComponents/ProfileInformation/ProfileInformation";
@@ -76,34 +76,31 @@ export default class App extends Component {
       case "3":
         return (
           <>
-            <div class="afterlogin">
-              <Router>
-                <Header2 />
-                <Switch>
-                  <Route exact path="/" component={Profile} />
-                  <Route
-                    path="/3a(3kJe28nkhdh703hkh3mpl0ye"
-                    component={Integrity}
-                  />
-                  <Route
-                    name="Books"
-                    path="/jnD3ejLpEnmZW9789Hnl83lDmHQE"
-                    component={NiceReads}
-                  />
-                  <Route
-                    name="prePanel"
-                    path="/JSn6yFsTxCRne2uOYCtt"
-                    component={PrePanel}
-                  />
-                  <Route
-                    name="story"
-                    path="/fdsHD8H3jDeqN082"
-                    component={ProfileInformation}
-                  />
-                </Switch>
-              </Router>
-              <FooterPage />
-            </div>
+            <Router>
+              <Header2 />
+              <Switch>
+                <Route path="/Qin3M3n09nDhJHU2nuhdD" component={Profile} />
+                <Route
+                  path="/3a(3kJe28nkhdh703hkh3mpl0ye"
+                  component={Integrity}
+                />
+                <Route
+                  name="Books"
+                  path="/jnD3ejLpEnmZW9789Hnl83lDmHQE"
+                  component={NiceReads}
+                />
+                <Route
+                  name="prePanel"
+                  path="/JSn6yFsTxCRne2uOYCtt"
+                  component={PrePanel}
+                />
+                <Route
+                  name="story"
+                  path="/fdsHD8H3jDeqN082"
+                  component={ProfileInformation}
+                />
+              </Switch>
+            </Router>
           </>
         );
       case "2":

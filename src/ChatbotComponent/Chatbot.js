@@ -22,10 +22,10 @@ export default class Chatbot extends Component {
   tick() {
     if (this.introTimer === 50) {
       this.introTimer++;
-      toast.success(
-        "Have you tried our new helpdesk function, here somebody will awnser all your questions. To acces this, there is a icon in the bottom right of everypage. Fill in your name and you will get helped by an employee!",
+      toast(
+        "Have you tried our new helpdesk function, here somebody will awnser all your questions. To acces this, there is a icon in the bottom left of everypage",
         {
-          position: "top-right",
+          position: "bottom-right",
           autoClose: false,
           hideProgressBar: false,
           closeOnClick: true,
@@ -49,10 +49,10 @@ export default class Chatbot extends Component {
     } else if (this.introTimer === 200) {
       this.introTimer++;
 
-      toast.success(
+      toast(
         "Okay so I have been able to hack into the message popups, I just wanted to let you know that you should look at somebodys's dog. That may be the key to get inside the system",
         {
-          position: "top-right",
+          position: "bottom-right",
           autoClose: false,
           hideProgressBar: false,
           closeOnClick: true,
