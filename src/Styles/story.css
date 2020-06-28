@@ -50,11 +50,16 @@
 .content {
   margin: 5em;
   margin-top: 1em;
+
+  color: black;
+}
+.contentCoducet {
+  margin: 5em;
+  margin-top: 1em;
   padding-left: 15vw;
   padding-right: 15vw;
   color: white;
 }
-
 .content h3 {
   font-size: 1em;
 }

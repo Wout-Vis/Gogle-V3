@@ -5,7 +5,7 @@ export default class Integrity extends Component {
     return (
       <div>
         <h2 class="section-title">Gogle Code of Conduct</h2>
-        <div class="content">
+        <div class="contentCoducet">
           <p>
             The Gogle Code of Conduct is one of the ways we put Gogle’s values
             into practice. It’s built around the recognition that everything we
