@@ -24,6 +24,8 @@
 #gogleStory {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  color: gray;
+  font-size: 500%;
 }
 
 #cards {

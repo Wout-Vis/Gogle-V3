@@ -12,22 +12,22 @@ export default function Homepage() {
       <div className="row" style={{ padding: 40 }}>
         <div className="col" id="quoteBox">
           <p id="quote">
-            “Our goal at Gogle is to contribute to the{" "}
+            Our goal at Gogle is to contribute to the{" "}
             <span class="blueText">betterment of humanity</span>. Our advanced
             technologies provide<span class="redText"> revolutionary</span> new
             ways to manage and optimize. Let’s all work
             <span class="yellowText"> together</span> on a better{" "}
-            <span class="greenText">tomorrow</span>.”
+            <span class="greenText">tomorrow</span>.
           </p>
         </div>
       </div>
-      <div className="row" style={{ padding: 40 }}>
+      <div className="row" id="everythingUnderQuote">
         <div className="col-md-7" id="containsMedia">
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-16by9 ">
             <iframe
               class="embed-responsive-item"
               src="https://drive.google.com/file/d/10k7eTDl4_ZWgvrj-f86IYWiAjEW9g-_t/preview"
-              allowfullscreen
+              allowfullscreen="true"
             ></iframe>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Homepage() {
           </p>
         </div>
       </div>
-      <div className="row" style={{ padding: 40 }}>
+      <div className="row" id="everythingUnderQuote">
         <div className="col-md-6">
           <p id="textPic1">
             “From day one our goal at Gogle is to contribute to the betterment
@@ -63,7 +63,7 @@ export default function Homepage() {
           />
         </div>
       </div>
-      <div id="meetTheBoard">
+      <div id="meetTheBoard" id="everythingUnderQuote">
         <Card style={{ fontSize: 20 }}>
           <Card.Header>Meet a director</Card.Header>
           <Card.Body>

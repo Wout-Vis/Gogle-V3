@@ -20,7 +20,7 @@ export default function Story() {
           </ScrollContainer>
         </div>
         <div class="lt-txtPlace">
-          <h1 id="gogleStory">The full story of Gogle</h1>
+          <h1 id="gogleStory">The full history of Gogle</h1>
         </div>
       </div>
     </div>
