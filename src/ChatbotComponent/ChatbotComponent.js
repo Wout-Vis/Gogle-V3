@@ -66,7 +66,7 @@ export default function ChatbotComponent(props) {
       trigger: "survailance",
     },
     {
-      delay: 1200,
+      delay: 12000,
 
       id: "survailance",
       message:
@@ -74,7 +74,7 @@ export default function ChatbotComponent(props) {
       trigger: "checkPortal",
     },
     {
-      delay: 1200,
+      delay: 12000,
 
       id: "checkPortal",
       message:
@@ -82,7 +82,7 @@ export default function ChatbotComponent(props) {
       trigger: "mailHint",
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "mailHint",
       message:
         "You need to find the credentials of one of the directors. The standard company email format is firstletter.lastname@ gogle.com",
@@ -96,7 +96,7 @@ export default function ChatbotComponent(props) {
       trigger: "askCredit",
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "askCredit",
       message: " Have you alredy found a potential password?",
       trigger: "creditAsk",
@@ -123,34 +123,34 @@ export default function ChatbotComponent(props) {
       ],
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "awnserNo",
       message:
         "Okay, keep searching please, fill in yes or no whenever you think you have it",
       trigger: "creditAsk2",
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "awnserNo2",
       message:
         "Okay, keep searching please, fill in yes or no whenever you think you have it",
       trigger: "creditAsk3",
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "awnserNo3",
       message: "I just remembered",
       trigger: "GiveGreatHint",
     },
     {
-      delay: 1040,
+      delay: 10040,
       id: "GiveGreatHint",
       message:
         "One of the directors, Mr. Escudero, is an absolute knob. He got his positions because his father has connections. I worked with him on a project and he is about the most unprofessional person I have ever met",
       trigger: "dogTalk",
     },
     {
-      delay: 1200,
+      delay: 12000,
       id: "dogTalk",
       message:
         "He always talked about some stupid show and his dog, I can’t remember the name sadly. He seems like the type of person to have an easy password, maybe try finding information about him",
