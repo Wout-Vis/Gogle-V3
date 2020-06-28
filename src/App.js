@@ -68,7 +68,7 @@ export default class App extends Component {
           </>
         );
       case "5":
-        return(
+        return (
           <>
             <VideoComponent />
           </>
