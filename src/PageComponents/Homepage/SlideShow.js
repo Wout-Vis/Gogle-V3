@@ -2,9 +2,9 @@ import React from "react";
 
 import { Carousel, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import slideQuantum from "../../GFX/quantum2.svg";
+import slideQuantum from "../../GFX/quantum.svg";
 import slideTeam from "../../GFX/theTeam.svg";
-import slideProducts from "../../GFX/products2.svg";
+import slideProducts from "../../GFX/products.svg";
 import slideWelcome from "../../GFX/welcome.svg";
 export default function SlideShow() {
   return (
