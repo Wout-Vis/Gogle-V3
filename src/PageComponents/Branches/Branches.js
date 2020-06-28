@@ -6,8 +6,8 @@ import logoGov from "../../GFX/branch_icon_Gov.svg";
 
 export default function Branches() {
   return (
-    <div class="container">
-      <div className="row" style={{ padding: 40 }}>
+    <div class="container" id="branchesContainer">
+      <div className="row">
         <div className="col">
           <img alt="logo gogle green" src={logoGreen} fluid />
         </div>
@@ -32,7 +32,9 @@ export default function Branches() {
         </div>
         <div class="col">
           Gogle Science is the cutting edge of innovation in health, artificial
-          intelligence, mechanical engineering and chemical engineering.
+          intelligence, mechanical engineering and chemical engineering. Our
+          quantum computers provide the key processing power to stay ahead of
+          the competition and strive for the cutting edge.
         </div>
         <div class="col">
           Gogle Stocks is a service that can elevate your trades to new heights.
@@ -43,19 +45,18 @@ export default function Branches() {
           Gogle Gov is our government-oriented branch. Using advanced quantum
           prediction and simulation technologies we provide governments around
           the world with information on the improvement of infrastructure,
-          disaster prevention & management and law enforcement.{" "}
+          disaster prevention and law enforcement.{" "}
         </div>
       </div>
-      <div class="row" style={{ padding: 40 }}>
-        <div class="col"></div>
-        <div class="col">
-          Our technologies: “From day one our goal at Gogle is to contribute to
-          the betterment of humanity” (Nicklas Ericksen, Founder & CEO), this
-          quote entails what our branches are for: the betterment of humanity.
-          By providing our services to both the private and public sectors we
-          believe we achieved just that.
+      <div class="row">
+        <div class="col" id="ourTechnologies">
+          <h1 id="ourTechnologiesTitle"> Our technologies: </h1>“From day one
+          our goal at Gogle is to contribute to the betterment of humanity”
+          (Nicklas Ericksen, Founder & CEO), this quote entails what our
+          branches are for: the betterment of humanity. By providing our
+          services to both the private and public sectors we believe we achieved
+          just that.
         </div>
-        <div class="col"></div>
       </div>
     </div>
   );

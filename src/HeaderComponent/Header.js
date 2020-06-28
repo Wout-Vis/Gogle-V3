@@ -15,7 +15,7 @@ export default class Header extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/products">
-              Products
+              Branches
             </Nav.Link>
             <NavDropdown title="Our Company" id="collasible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/founder">
