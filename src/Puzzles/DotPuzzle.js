@@ -77,7 +77,8 @@ export default class DotPuzzle extends Component {
         }
 
         p.mouseReleased = () => {
-            figure.dropDot();
+            let mouse = p.createVector( p.mouseX, p.mouseY );
+            figure.dropDot( grid.getGridSnap( mouse ) );
         }
 
         p.mouseDragged = () => {
@@ -115,6 +116,24 @@ export default class DotPuzzle extends Component {
                 this.gridSize = initGridSize;
                 this.dimension = initDimension;
                 this.dotSize = initDotSize;
+            }
+
+            getGridSnap( mouse )
+            {
+                for ( let i = 0; i <= this.dimension.x; i++ ) {
+                    for ( let j = 0; j <= this.dimension.y; j++ ) {
+
+                        let x = i * this.gridSize;
+                        let y = j * this.gridSize;
+
+                        let diff = p.dist( mouse.x, mouse.y, x, y )
+                        if ( diff <= 20 )
+                        {
+                            return p.createVector( x, y );
+                        }
+                    }
+                }
+                return null;
             }
 
             display()
@@ -224,11 +243,11 @@ export default class DotPuzzle extends Component {
                 }
             }
 
-            dropDot()
+            dropDot( snapVector )
             {
                 for ( let i = 0; i < this.dots.length; i++ )
                 {
-                    this.dots[i].drop();
+                    this.dots[i].drop( snapVector );
                 }
             }
 
@@ -336,9 +355,19 @@ export default class DotPuzzle extends Component {
                 this.active = true;
             }
 
-            drop()
+            drop( snapVector )
             {
                 this.active = false;
+
+                if ( snapVector !== null )
+                {
+                    let diff = p.dist( this.position.x, this.position.y, snapVector.x, snapVector.y );
+                    if ( diff <= 20 )
+                    {
+                        this.position.x = snapVector.x;
+                        this.position.y = snapVector.y;
+                    }
+                } 
             }
         }
 

@@ -112,7 +112,7 @@ export default class ControlPanel extends Component {
     passValue[simEnvironment] =
       0.1 * cfg[cfgResearch] +
       0.2 * cfg[cfgConsumer] +
-      0.45 * cfg[cfgEmission] +
+      -0.45 * cfg[cfgEmission] +
       0.25 * cfg[cfgPolitics];
     passValue[simProgress] =
       0.35 * cfg[cfgHealthcare] +
