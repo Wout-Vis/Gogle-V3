@@ -64,7 +64,7 @@ export default function Homepage() {
         <Card style={{ fontSize: 20 }}>
           <Card.Header>Meet a director</Card.Header>
           <Card.Body>
-            <Card.Title>Davis Escudero</Card.Title>
+            <Card.Title>David Escudero</Card.Title>
             <Card.Text>
               To continue the “Meet a director” event, we would like to
               introduce you to this month's member: David Escudero. We know

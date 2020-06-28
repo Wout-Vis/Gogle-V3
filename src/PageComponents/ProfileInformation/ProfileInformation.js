@@ -23,7 +23,7 @@ export default class ProfileInformation extends Component {
                   <li>Status: married</li>
                   <li>Address: Elisabeth-Koninginnelaan 148</li>
                   <li>ZIP code: 0420 12</li>
-                  <li>Phone Number: +31648465888</li>
+                  <li>Phone Number: +3163311318</li>
                 </ul>
                 <ul>
                   <h3>Company Profile</h3>
