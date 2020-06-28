@@ -137,6 +137,7 @@ div#endBox #introTextBox {
   animation-timing-function: ease-in;
 }
 
+/* branches page */
 #branchesContainer {
   padding-top: 5vw;
 }
@@ -149,4 +150,20 @@ div#endBox #introTextBox {
 }
 #ourTechnologiesTitle {
   color: grey;
+}
+
+/* quantum page */
+#quantumTitle {
+  color: dimgray;
+  font-size: 500%;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  position: relative;
+  float: center;
+  text-align: center;
+}
+#quantumText {
+  font-size: 150%;
 }

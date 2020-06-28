@@ -10,22 +10,25 @@ export default function Quantum() {
       </div>
       <div class="container">
         <div className="row">
-          <div className="col" id="quantumTitle">
-            <h1>What is quantum computing?</h1>
+          <div className="col">
+            <h1 id="quantumTitle">What is quantum computing?</h1>
           </div>
         </div>
-        <div className="row" style={{ padding: 20 }}>
+        <div className="row" id="quantumText">
           <div className="col">
             <p>
-              Placholder text <br></br>Quantum computing is the use of
-              quantum-mechanical phenomena such as superposition and
-              entanglement to perform computation. Computers that perform
-              quantum computations are known as quantum computers.[1]:I-5
-              Quantum computers are believed to be able to solve certain
-              computational problems, such as integer factorization (which
-              underlies RSA encryption), substantially faster than classical
-              computers. The study of quantum computing is a subfield of quantum
-              information science.
+              Instead of using on and off states, also known as 1's and 0's,
+              quantum computing uses quantum-mechanical phenomena such as
+              superposition and entanglement to perform computation. Computers
+              that perform quantum computations are known as quantum computers.
+              These offer vastly greater processing power than traditional
+              computers. So much so that we can perform calculations that we not
+              ought to be possible before this invention.{" "}
+              <span class="yellowText">
+                This allows us to calculate what will likely happen in an area
+                given certain circumstances.
+              </span>
+              [1]
             </p>
           </div>
 

@@ -17,6 +17,9 @@ export default class Header extends Component {
             <Nav.Link as={Link} to="/products">
               Branches
             </Nav.Link>
+            <Nav.Link as={Link} to="/quantum">
+              Quantum computing
+            </Nav.Link>
             <NavDropdown title="Our Company" id="collasible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/founder">
                 Meet the Founder
@@ -25,7 +28,7 @@ export default class Header extends Component {
                 The Board
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/story">
-                Story
+                History
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
