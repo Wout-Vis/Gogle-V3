@@ -3,7 +3,7 @@ import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import LoginPopUP from "../loginForm/LoginPopUp";
 
-import Avatar from "../GFX/avatar.jpg";
+import Avatar from "../GFX/female.jpeg";
 
 export default function ChatbotComponent(props) {
   const theme = {
