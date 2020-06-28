@@ -54,7 +54,7 @@ export default function ChatbotComponent(props) {
       delay: 6000,
       id: "moreStory",
       message:
-        " I am an employee in the engineering department. Gogle is not what it seems",
+        " I am an employee in the engineering department. Gogle is not what it seems. ",
       trigger: "concern",
     },
     {
@@ -62,7 +62,7 @@ export default function ChatbotComponent(props) {
 
       id: "concern",
       message:
-        " I have voiced my concerns with my supervisor but he seems to be in on it. Gogle possess technologies that no one should have",
+        " I have voiced my concerns with my supervisor but he seems to be in on it. Gogle possess technologies that no one should have sole control over. ",
       trigger: "survailance",
     },
     {
@@ -70,7 +70,7 @@ export default function ChatbotComponent(props) {
 
       id: "survailance",
       message:
-        " They increased surveillance on me. I can’t come out with this information",
+        " They increased surveillance on me. I can’t come out with this information directly. ",
       trigger: "checkPortal",
     },
     {
@@ -78,27 +78,27 @@ export default function ChatbotComponent(props) {
 
       id: "checkPortal",
       message:
-        "  Please try investigating. I can link you to the employee portal but you do have to log in. My account is not enough because I do not have access to the restricted parts of the site",
+        "  Please try investigating. I can link you to the employee portal but you do have to log in yourself. My account is not cleared to access the restricted parts of the site. ",
       trigger: "mailHint",
     },
     {
       delay: 12000,
       id: "mailHint",
       message:
-        "You need to find the credentials of one of the directors. The standard company email format is firstletter.lastname@ gogle.com",
+        "You need to find the credentials of one of the directors. The standard company email format is firstletter.lastname@ gogle.com. You can probably use that to log in. ",
       trigger: "passWordHint",
     },
     {
       delay: 12000,
       id: "passWordHint",
       message:
-        " I would not know a password. Maybe you can find something on the website",
+        " I would not know a password. Maybe you can find something on the website. ",
       trigger: "askCredit",
     },
     {
       delay: 12000,
       id: "askCredit",
-      message: " Have you alredy found a potential password?",
+      message: " Have you already found a potential password?",
       trigger: "creditAsk",
     },
     {
@@ -126,14 +126,14 @@ export default function ChatbotComponent(props) {
       delay: 12000,
       id: "awnserNo",
       message:
-        "Okay, keep searching please, fill in yes or no whenever you think you have it",
+        " Okay, keep searching please, tell me yes when you have it. ",
       trigger: "creditAsk2",
     },
     {
       delay: 12000,
       id: "awnserNo2",
       message:
-        "Okay, keep searching please, fill in yes or no whenever you think you have it",
+        " Okay, keep searching please, tell me yes when you have it. ",
       trigger: "creditAsk3",
     },
     {
@@ -146,21 +146,21 @@ export default function ChatbotComponent(props) {
       delay: 10040,
       id: "GiveGreatHint",
       message:
-        "One of the directors, Mr. Escudero, is an absolute knob. He got his positions because his father has connections. I worked with him on a project and he is about the most unprofessional person I have ever met",
+        " One of the directors, Mr. Escudero, is an absolute knob. He got his positions because his father has connections. I worked with him on a project and he is about the most unprofessional person I have ever met. ",
       trigger: "dogTalk",
     },
     {
       delay: 12000,
       id: "dogTalk",
       message:
-        "He always talked about some stupid show and his dog, I can’t remember the name sadly. He seems like the type of person to have an easy password, maybe try finding information about him",
+        "He always talked about some stupid show and his dog, I can’t remember the name sadly. He seems like the type of person to have an easy password, maybe try finding information about him. ",
       trigger: "giveLogin",
     },
     {
       delay: 6000,
       id: "giveLogin",
       message:
-        " luckilly I have some hakcing skills, okey ill quickly hack a link towards the employee login",
+        " Luckilly I have some hacking skills. Okay, I'll quickly hack a link towards the employee login. ",
       trigger: "loginComponent",
     },
     {

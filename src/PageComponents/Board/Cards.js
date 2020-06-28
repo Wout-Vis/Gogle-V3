@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardDeck, Accordion, Button } from "react-bootstrap";
+import { Card, CardDeck, Accordion } from "react-bootstrap";
 
 import Ahn from "./Directors/Ahn.jpeg";
 import Gonzales from "./Directors/Gonzales.jpeg";
