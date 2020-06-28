@@ -35,36 +35,28 @@
 #textPic1 {
   color: grey;
 }
-/* #containsMedia {
+#containsMedia {
   padding-left: 1vw;
   padding-right: 1vw;
-} */
-.grid-container {
+}
+/* .grid-container {
   display: grid;
   grid-template-columns: 0.7fr 1.4fr 0.8fr 1.1fr;
   grid-template-rows: 0.2fr 1fr 1.4fr 1.4fr 1fr;
   gap: 1px 1px;
   grid-template-areas: ". . . ." " . . founderImg ." ". founderText . ." ". . . ." ". . . .";
 }
-.founderQuote {
-  grid-area: founderQuote;
-  font-size: small;
-}
 
-.founderText {
-  grid-area: founderText;
-}
 
-.founderImg {
-  bottom: 10px;
-  grid-area: founderImg;
-  font-size: small;
-  text-align: center;
-}
-#founderImg {
-  width: 125%;
-}
+
+
+*/
 
 #meetTheBoard {
   padding: 2vw;
+}
+#meetTheBoard2 {
+  padding: 2vw;
+  margin-left: 23vw;
+  margin-right: 23vw;
 }

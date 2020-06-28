@@ -6,7 +6,7 @@ export default function Quantum() {
   return (
     <div>
       <div>
-        <img alt="quantum PC" src={quantum} fluid />
+        <img alt="quantum PC" src={quantum} />
       </div>
       <div class="container">
         <div className="row">

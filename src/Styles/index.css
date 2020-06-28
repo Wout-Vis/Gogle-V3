@@ -167,3 +167,27 @@ div#endBox #introTextBox {
 #quantumText {
   font-size: 150%;
 }
+
+/* founder page */
+
+.founderImg {
+  width: 30%;
+  margin-top: 2vw;
+}
+#founderContainer {
+  float: center;
+}
+#founderQuote {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 21vw;
+  margin-right: 21vw;
+  position: relative;
+  float: center;
+  text-align: center;
+  font-size: small;
+}
+
+.founderText {
+  margin-bottom: 2vw;
+}
