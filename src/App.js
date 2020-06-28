@@ -31,6 +31,7 @@ import ControlPanel from "./ControlPanel/ControlPanel";
 import FooterPage from "./FooterComponent/Footer";
 import Header2 from "./HeaderComponent/Header2";
 
+import VideoComponent from "./Video/VideoComponent";
 import EndScreen from "./EndComponent/EndScreen";
 
 export default class App extends Component {
