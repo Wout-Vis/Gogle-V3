@@ -30,7 +30,17 @@ export default function Board() {
           <Card.Body>
             <Card.Title>Bassira Keita</Card.Title>
             <Card.Text>
-              We are starting something new: "Meet a director".
+              We are starting something new: "Meet a director". Behind all this
+              amazing innovation one might be surprised that there are just
+              regular people passionately steering the ship. Each with their own
+              hobbies, quircks and lifestyles. That's why we want you to get a
+              little glimps of who the team consists of. We will kick things off
+              with introducing Barissa Keita. This wonderfull person is, next to
+              being an amazing collegue, our Public Affairs Officer. She is
+              driven and carreer focussed but never fails to make time for her
+              other passion: sports! She plays tennis on a regular basis and
+              golfs every now and then. She is also an avid cross-fitter, and
+              always up for a friendly competition.
             </Card.Text>
           </Card.Body>
         </Card>
