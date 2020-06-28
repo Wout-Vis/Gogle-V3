@@ -5,8 +5,8 @@ import Progress from "../../Progress";
 export default class PrePannelComment extends Component {
   render() {
     return (
-      <div class="afterlogin">
-        <div class="projectDiv">
+      <div class="afterlogin odinContainer">
+        <div class="projectDiv ">
           <h2>Project: ODIN</h2>
 
           <Grid columns={3}>
@@ -43,7 +43,7 @@ export default class PrePannelComment extends Component {
                       etc.
                     </li>
                   </ul>
-                  <Button onClick={ () => Progress.updateProgress("4")}>
+                  <Button onClick={() => Progress.updateProgress("4")}>
                     To Project Odin
                   </Button>
                 </div>

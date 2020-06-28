@@ -3,21 +3,20 @@ import { Button } from "semantic-ui-react";
 import Progress from "../../Progress";
 
 export default class PrePanel extends Component {
-
   render() {
     return (
       <div class="afterlogin">
-        <div class="projectDiv">
+        <div class="projectDiv mx-auto">
           <h2>Project: ODIN</h2>
           <div>
             <p>
               Welcome to our next big product: Project “ODIN”. This project aims
               to provide a revolutionary new service to governments and
               organizations around the world: “Quantum Crowd Steering”. With our
-              innovations in simulation technology we have been able to create a
-              simulated version of Earth. In this simulation we can control
-              certain aspects such as news, articles, advertising, etc to try
-              and steer crowds in a certain direction.
+              innovations in simulatioe have been able to create a simulated
+              version of Earth. In this simulation we can control certain
+              aspects such as news, articles, advertising, etc to try and steer
+              crowds in a certain direction.
             </p>
             <h3>Examples</h3>
             <ul>
@@ -38,7 +37,7 @@ export default class PrePanel extends Component {
                 be investments, lay-offs, timed product launches, etc.
               </li>
             </ul>
-            <Button onClick={ () => Progress.updateProgress('4') }>
+            <Button onClick={() => Progress.updateProgress("4")}>
               To Project Odin
             </Button>
           </div>
