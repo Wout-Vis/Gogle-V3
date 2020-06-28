@@ -3,7 +3,7 @@ import SlideShow from "./SlideShow";
 
 import { Link } from "react-router-dom";
 import { Image, Card, Button } from "react-bootstrap";
-import pictureOne from "../../GFX/combinedPicture.png";
+import pictureOne from "../../GFX/combine.svg";
 
 export default function Homepage() {
   return (
@@ -44,14 +44,11 @@ export default function Homepage() {
       </div>
       <div className="row" id="everythingUnderQuote">
         <div className="col-md-6">
-          <p id="textPic1">
-            “From day one our goal at Gogle is to contribute to the betterment
-            of <span class="blueText">humanity</span>. We believe that our
-            advanced technologies provide a{" "}
-            <span class="redText">revolutionary</span> new way to manage
-            finance, government, science, environment and more. Let’s all work
-            <span class="yellowText"> together</span> on a better{" "}
-            <span class="greenText">tomorrow</span>.”
+          <p id="textPic2">
+            Project Odin is the culmination of the experience of all our
+            branches. These individual branches perfected predicting their
+            respective expertise, but with Odin everything is interconnected.
+            Resulting in far more accurate predictions in any domain.
           </p>
         </div>
         <div className="col-md-6">

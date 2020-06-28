@@ -34,6 +34,13 @@
 }
 #textPic1 {
   color: grey;
+  text-align: justify;
+}
+#textPic2 {
+  color: grey;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vw;
 }
 #containsMedia {
   padding-left: 1vw;
