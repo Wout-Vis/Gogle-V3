@@ -23,7 +23,7 @@ export default function Quantum() {
               that perform quantum computations are known as quantum computers.
               These offer vastly greater processing power than traditional
               computers. So much so that we can perform calculations that we
-              ought not to be possible before this invention.{" "}
+              thought not to be possible before this invention.{" "}
               <span class="yellowText">
                 This allows us to calculate what will likely happen in an area
                 given certain circumstances.

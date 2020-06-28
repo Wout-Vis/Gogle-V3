@@ -5,7 +5,7 @@ export default function EndScreen() {
 
     function reset()
     {
-        window.location.reload();
+        window.location.reload("/");
         Progress.updateProgress('0');
     }
 

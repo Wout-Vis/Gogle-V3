@@ -6,6 +6,8 @@ import imgRU from "./RotateData/RU.png";
 import imgLD from "./RotateData/LD.png";
 import imgRD from "./RotateData/RD.png";
 
+import Progress from "../Progress";
+
 export default class RotatePuzzle extends Component {
   
     constructor(props)
@@ -25,7 +27,7 @@ export default class RotatePuzzle extends Component {
 
         p.draw = () => {
             p.rectMode( p.CENTER );
-            p.background( 67, 67, 67 );
+            p.background( 255 );
             elements.run();
         }
 
@@ -108,9 +110,20 @@ export default class RotatePuzzle extends Component {
             
             run() {
                 if (!this.isComplete) {
-                this.display();
+                    this.display();
                 } else if (this.isComplete) {
-                this.completeDisplay();
+                    this.display();
+
+                    if ( !this.timerStarted )
+                    {
+                        this.endTimer = p.millis();
+                        this.timerStarted = true;
+                    }
+                    
+                    if ( p.millis() - this.endTimer > 3000 )
+                    {
+                        Progress.solveCaptcha();
+                    }
                 }
                 this.complete();
             }
