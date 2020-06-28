@@ -20,7 +20,7 @@ export default class Chatbot extends Component {
   }
 
   tick() {
-    if (this.introTimer === 50) {
+    if (this.introTimer === 100) {
       this.introTimer++;
       toast.success(
         "Have you tried our new helpdesk function, here somebody will awnser all your questions. To acces this, there is a icon in the bottom right of everypage. Fill in your name and you will get helped by an employee!",
@@ -46,7 +46,7 @@ export default class Chatbot extends Component {
           <ToastContainer />
         </div>
       );
-    } else if (this.introTimer === 200) {
+    } else if (this.introTimer === 500) {
       this.introTimer++;
 
       toast.success(

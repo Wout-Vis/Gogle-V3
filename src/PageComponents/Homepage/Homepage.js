@@ -64,7 +64,7 @@ export default function Homepage() {
         </div>
       </div>
       <div id="meetTheBoard">
-        <Card>
+        <Card style={{ fontSize: 20 }}>
           <Card.Header>Meet a director</Card.Header>
           <Card.Body>
             <Card.Title>Davis Escudero</Card.Title>

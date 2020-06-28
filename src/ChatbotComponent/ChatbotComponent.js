@@ -51,14 +51,14 @@ export default function ChatbotComponent(props) {
     },
 
     {
-      delay: 3000,
+      delay: 6000,
       id: "moreStory",
       message:
         " I am an employee in the engineering department. Gogle is not what it seems",
       trigger: "concern",
     },
     {
-      delay: 4500,
+      delay: 9000,
 
       id: "concern",
       message:
@@ -66,7 +66,7 @@ export default function ChatbotComponent(props) {
       trigger: "survailance",
     },
     {
-      delay: 6000,
+      delay: 1200,
 
       id: "survailance",
       message:
@@ -74,7 +74,7 @@ export default function ChatbotComponent(props) {
       trigger: "checkPortal",
     },
     {
-      delay: 6000,
+      delay: 1200,
 
       id: "checkPortal",
       message:
@@ -82,21 +82,21 @@ export default function ChatbotComponent(props) {
       trigger: "mailHint",
     },
     {
-      delay: 4500,
+      delay: 1200,
       id: "mailHint",
       message:
         "You need to find the credentials of one of the directors. The standard company email format is firstletter.lastname@ gogle.com",
       trigger: "passWordHint",
     },
     {
-      delay: 6000,
+      delay: 12000,
       id: "passWordHint",
       message:
         " I would not know a password. Maybe you can find something on the website",
       trigger: "askCredit",
     },
     {
-      delay: 6000,
+      delay: 1200,
       id: "askCredit",
       message: " Have you alredy found a potential password?",
       trigger: "creditAsk",
@@ -123,41 +123,41 @@ export default function ChatbotComponent(props) {
       ],
     },
     {
-      delay: 6000,
+      delay: 1200,
       id: "awnserNo",
       message:
         "Okay, keep searching please, fill in yes or no whenever you think you have it",
       trigger: "creditAsk2",
     },
     {
-      delay: 6000,
+      delay: 1200,
       id: "awnserNo2",
       message:
         "Okay, keep searching please, fill in yes or no whenever you think you have it",
       trigger: "creditAsk3",
     },
     {
-      delay: 6000,
+      delay: 1200,
       id: "awnserNo3",
       message: "I just remembered",
       trigger: "GiveGreatHint",
     },
     {
-      delay: 5700,
+      delay: 1040,
       id: "GiveGreatHint",
       message:
         "One of the directors, Mr. Escudero, is an absolute knob. He got his positions because his father has connections. I worked with him on a project and he is about the most unprofessional person I have ever met",
       trigger: "dogTalk",
     },
     {
-      delay: 6000,
+      delay: 1200,
       id: "dogTalk",
       message:
         "He always talked about some stupid show and his dog, I can’t remember the name sadly. He seems like the type of person to have an easy password, maybe try finding information about him",
       trigger: "giveLogin",
     },
     {
-      delay: 7500,
+      delay: 6000,
       id: "giveLogin",
       message:
         " luckilly I have some hakcing skills, okey ill quickly hack a link towards the employee login",

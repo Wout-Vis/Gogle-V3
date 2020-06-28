@@ -35,7 +35,7 @@ export default function Founder() {
             was a big step for us and that was the first time that we could see
             the impact of our work around the world. At the start of project
             Fafnir in 2026 I met Chad Bloomberg, a brilliant economist. After
-            being together for a few years we married and adopted our two dogs
+            being together for a few years we married and adopted our two cats
             Jimmy and Monkey.
           </p>
         </div>

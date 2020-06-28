@@ -30,27 +30,14 @@ export default function Cards() {
             <Card.Body>
               <Card.Title>Nicklas Ericksen</Card.Title>
               <Card.Text>CEO/Founder</Card.Text>
-
-              <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                Read More
-              </Accordion.Toggle>
             </Card.Body>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body>Hello! I'm the body</Card.Body>
-            </Accordion.Collapse>
           </Card>
           <Card>
             <Card.Img variant="top" src={Ahn} />
             <Card.Body>
               <Card.Title>Jungkook Ahn</Card.Title>
               <Card.Text>COO/Co-founder </Card.Text>
-              <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                Read More
-              </Accordion.Toggle>
             </Card.Body>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>Hello! I'm the body</Card.Body>
-            </Accordion.Collapse>
           </Card>
         </CardDeck>
         <CardDeck id="cards">
@@ -59,13 +46,7 @@ export default function Cards() {
             <Card.Body>
               <Card.Title>Ji-Soo Lannister</Card.Title>
               <Card.Text>Senior Managment Advisor</Card.Text>
-              <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                Read More
-              </Accordion.Toggle>
             </Card.Body>
-            <Accordion.Collapse eventKey="1">
-              <Card.Body>Hello! I'm the body</Card.Body>
-            </Accordion.Collapse>
           </Card>
           <Card>
             <Card.Img variant="top" src={Taylor} />
@@ -79,13 +60,7 @@ export default function Cards() {
             <Card.Body>
               <Card.Title>Juan Fuentes Ramos</Card.Title>
               <Card.Text>Chairman of Gogle Stocks branch</Card.Text>
-              <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                Read More
-              </Accordion.Toggle>
             </Card.Body>
-            <Accordion.Collapse eventKey="2 ">
-              <Card.Body>Hello! I'm the body</Card.Body>
-            </Accordion.Collapse>
           </Card>
         </CardDeck>
 
