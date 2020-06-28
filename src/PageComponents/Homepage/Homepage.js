@@ -16,7 +16,7 @@ export default function Homepage() {
             <span class="blueText">betterment of humanity</span>. Our advanced
             technologies provide<span class="redText"> revolutionary</span> new
             ways to manage and optimize. Let’s all work
-            <span class="yellowText"> together</span> on a better{" "}
+            <span class="yellowText"> together</span> for a better{" "}
             <span class="greenText">tomorrow</span>.
           </p>
         </div>

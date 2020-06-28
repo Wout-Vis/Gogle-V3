@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
-import { Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Card } from "react-bootstrap";
+
 export default function Board() {
   return (
     <div style={{ margin: 40 }}>

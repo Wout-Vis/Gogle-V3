@@ -61,10 +61,16 @@ export default class App extends Component {
 
   render() {
     switch (this.state.progress) {
-      case "5":
+      case "6":
         return (
           <>
             <EndScreen />
+          </>
+        );
+      case "5":
+        return(
+          <>
+            <VideoComponent />
           </>
         );
       case "4":

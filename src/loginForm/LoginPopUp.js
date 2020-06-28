@@ -4,7 +4,7 @@ import { Modal, Button } from "react-bootstrap";
 import { FormikApp } from "./LoginPage";
 import Progress from "../Progress";
 
-import CaptchaPuzzle from '../Puzzles/CaptchaPuzzle';
+import RotatePuzzle from '../Puzzles/RotatePuzzle';
 
 export default class LoginPopUP extends Component {
 
@@ -39,7 +39,7 @@ export default class LoginPopUP extends Component {
     {
       return (<FormikApp />);
     } else {
-      return <CaptchaPuzzle />;
+      return <RotatePuzzle />;
     }
   }
 
