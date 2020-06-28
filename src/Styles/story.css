@@ -41,8 +41,8 @@
 }
 
 .section-title {
-  font-size: 3rem;
-
+  font-size: 4rem;
+  padding-top: 5vw;
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin-bottom: 4rem;
@@ -50,6 +50,9 @@
 .content {
   margin: 5em;
   margin-top: 1em;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  color: white;
 }
 
 .content h3 {
@@ -59,11 +62,17 @@
 .projectDiv {
   margin: 4em;
   margin: 10em;
+  margin-left: ;
 }
 
 .projectDiv h2 {
   font-size: 4em;
   margin-bottom: 2em;
+}
+
+.odinContainer {
+  padding-left: 15vw;
+  padding-right: 0vw;
 }
 
 .niceReads {
@@ -86,7 +95,9 @@
   margin-bottom: 3rem;
   text-align: center;
 }
-
+.codeOfConductContainer {
+  padding-left: 5vw;
+}
 .codeOfConduct {
   margin: 24rem;
   margin-top: 3rem;
@@ -110,7 +121,8 @@
 .afterlogin {
   margin-top: 0em;
   min-height: 100%;
-  background-color: darkgray;
+  background-color: dimgray;
+  color: white;
 }
 
 .profileInfo {

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Integrety extends Component {
   render() {
     return (
-      <div class="afterlogin">
+      <div class="afterlogin codeOfConductContainer">
         <div class="codeOfConduct">
           <h2 class="section-title">Gogle Code of Conduct</h2>
           <div class="content">
