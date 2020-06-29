@@ -13,7 +13,7 @@ export default class Profile extends Component {
         <div class="companyNews">
           <h2>Company News</h2>
           <Message>
-            <Message.Header>10/5/3035</Message.Header>
+            <Message.Header>10/5/2035</Message.Header>
             <Grid columns={2}>
               <Grid.Row>
                 <Grid.Column>

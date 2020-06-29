@@ -14,7 +14,7 @@ export default class Header2 extends Component {
         <Navbar.Brand as={Link} to="/"></Navbar.Brand>
         <img
           src={Employee_Icon}
-          className="d-inline-block align-top"
+          className="d-inline-block align-top goglemployeeLogo"
           alt="Gogle"
         />
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

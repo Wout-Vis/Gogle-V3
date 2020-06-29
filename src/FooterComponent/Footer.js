@@ -9,19 +9,19 @@ const FooterPage = () => {
           <p>English</p>
         </div>
       </div>
-      <div class="row pl-4">
+      <div class="row pl-4 pb-2 pt-2">
         <div class="col ">
           <p>Contact</p>
         </div>
-        <div class="col ">
+        <div class="col footerMiddle">
           <p>Terms</p>
         </div>
-        <div class="col ">
+        <div class="col footerRight">
           <p>Privacy</p>
         </div>
-        <div class="col w-60">
+        {/* <div class="col sm-8">
           <p></p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

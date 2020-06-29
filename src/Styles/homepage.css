@@ -68,3 +68,12 @@
   margin-left: 23vw;
   margin-right: 23vw;
 }
+/* Footer Component */
+
+.footerMiddle {
+  text-align: center;
+}
+.footerRight {
+  text-align: right;
+  padding-right: 1vw;
+}

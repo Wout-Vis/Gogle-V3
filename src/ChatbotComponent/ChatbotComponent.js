@@ -19,8 +19,8 @@ export default function ChatbotComponent(props) {
   };
 
   const config = {
-    width: "300px",
-    height: "400px",
+    width: "350px",
+    height: "550px",
     floating: true,
     enableMobileAutoFocus: true,
   };
@@ -51,14 +51,14 @@ export default function ChatbotComponent(props) {
     },
 
     {
-      delay: 6000,
+      delay: 4000,
       id: "moreStory",
       message:
         " I am an employee in the engineering department. Gogle is not what it seems. ",
       trigger: "concern",
     },
     {
-      delay: 9000,
+      delay: 7000,
 
       id: "concern",
       message:
@@ -66,7 +66,7 @@ export default function ChatbotComponent(props) {
       trigger: "survailance",
     },
     {
-      delay: 12000,
+      delay: 10000,
 
       id: "survailance",
       message:
@@ -74,7 +74,7 @@ export default function ChatbotComponent(props) {
       trigger: "checkPortal",
     },
     {
-      delay: 12000,
+      delay: 10000,
 
       id: "checkPortal",
       message:
@@ -82,21 +82,21 @@ export default function ChatbotComponent(props) {
       trigger: "mailHint",
     },
     {
-      delay: 12000,
+      delay: 10000,
       id: "mailHint",
       message:
         "You need to find the credentials of one of the directors. The standard company email format is firstletter.lastname@ gogle.com. You can probably use that to log in. ",
       trigger: "passWordHint",
     },
     {
-      delay: 12000,
+      delay: 6000,
       id: "passWordHint",
       message:
         " I would not know a password. Maybe you can find something on the website. ",
       trigger: "askCredit",
     },
     {
-      delay: 12000,
+      delay: 6000,
       id: "askCredit",
       message: " Have you already found a potential password?",
       trigger: "creditAsk",
@@ -125,15 +125,13 @@ export default function ChatbotComponent(props) {
     {
       delay: 12000,
       id: "awnserNo",
-      message:
-        " Okay, keep searching please, tell me yes when you have it. ",
+      message: " Okay, keep searching please, tell me yes when you have it. ",
       trigger: "creditAsk2",
     },
     {
       delay: 12000,
       id: "awnserNo2",
-      message:
-        " Okay, keep searching please, tell me yes when you have it. ",
+      message: " Okay, keep searching please, tell me yes when you have it. ",
       trigger: "creditAsk3",
     },
     {
