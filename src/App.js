@@ -37,7 +37,7 @@ import EndScreen from "./EndComponent/EndScreen";
 export default class App extends Component {
   constructor() {
     super();
-    Progress.updateProgress("0");
+
     this.state = {
       progress: Progress.getProgress(),
     };

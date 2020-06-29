@@ -5,15 +5,16 @@ For the tree we use some icons and symbols, only when we end up using the file s
 ### npm install p5
 
 ### npm install formik
+
 ### npm install yup
 
 ### npm install styled-components
+
 ### npm install react-icons
 
-
-
 For chatbot use
- ### npm install react-simple-chatbot styled-components --save
+
+### npm install react-simple-chatbot styled-components --save
 
 For bootstrap
 
@@ -28,9 +29,6 @@ For bootstrap
 ### npm install jquery
 
 ### npm install react-router-dom
-
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
